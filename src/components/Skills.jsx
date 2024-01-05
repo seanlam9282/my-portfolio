@@ -1,21 +1,21 @@
 import React from 'react'
-import Java from '../assets/java.png'
-import CSharp from '../assets/csharp.png'
-import Python from '../assets/python.png'
-import Node from '../assets/node.png'
-import HTML from '../assets/html.png'
-import CSS from '../assets/css.png'
-import Tailwind from '../assets/tailwind.png'
-import JavaScript from '../assets/javascript.png'
-import ReactJS from '../assets/react.png'
-import ReactNative from '../assets/react-native.png'
-import Next from '../assets/next.png'
-import Git from '../assets/git.png'
-import Firebase from '../assets/firebase.png'
+import Java from '../assets/skills/java.png'
+import CSharp from '../assets/skills/csharp.png'
+import Python from '../assets/skills/python.png'
+import Node from '../assets/skills/node.png'
+import HTML from '../assets/skills/html.png'
+import CSS from '../assets/skills/css.png'
+import Tailwind from '../assets/skills/tailwind.png'
+import JavaScript from '../assets/skills/javascript.png'
+import ReactJS from '../assets/skills/react.png'
+import ReactNative from '../assets/skills/react-native.png'
+import Next from '../assets/skills/next.png'
+import Git from '../assets/skills/git.png'
+import Firebase from '../assets/skills/firebase.png'
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full h-screen bg-[#092635] text-gray-300'>
+        <div name='skills' className='w-full h-screen bg-[#092635] text-white'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4'>Skills</p>

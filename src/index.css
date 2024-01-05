@@ -20,3 +20,12 @@
     background-position: center;
     height: 250px;
 }
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(51, 58, 72, 0.8),
+        hsla(244, 41%, 7%, 0.8)
+    );
+
+}
