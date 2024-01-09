@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { Link } from 'react-scroll'
-import Logo from '../assets/logo.png'
 
 const Nav = () => {
     const [showMenu, setShowMenu] = useState(false)
@@ -13,7 +12,7 @@ const Nav = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#092635] text-gray-400'>
             <div>
-                <img src={Logo} alt="logo" className='w-[150px]' />
+                <img src='logo.png' alt='logo' className='w-28 h-14 pl-8'/>
             </div>
 
             <ul className='hidden md:flex'>
